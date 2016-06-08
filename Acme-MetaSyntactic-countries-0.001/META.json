@@ -50,8 +50,8 @@
       "homepage" : "https://metacpan.org/release/Acme-MetaSyntactic-countries",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/perlancar/perl-Acme-MetaSyntactic-dangdut.git",
-         "web" : "https://github.com/perlancar/perl-Acme-MetaSyntactic-dangdut"
+         "url" : "git://github.com/perlancar/perl-Acme-MetaSyntactic-countries.git",
+         "web" : "https://github.com/perlancar/perl-Acme-MetaSyntactic-countries"
       }
    },
    "version" : "0.001",

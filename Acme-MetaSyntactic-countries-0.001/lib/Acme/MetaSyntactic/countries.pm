@@ -4,7 +4,8 @@ our $DATE = '2016-06-09'; # DATE
 our $VERSION = '0.001'; # VERSION
 
 use parent qw(Acme::MetaSyntactic::WordList);
-__PACKAGE__->init('WordList::EN::CountryNames::SingleWord');
+my $data = __PACKAGE__->init_data('WordList::EN::CountryNames::SingleWord');
+__PACKAGE__->init($data);
 
 1;
 # ABSTRACT: Country names
@@ -38,7 +39,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/Acme-MetaS
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/perlancar/perl-Acme-MetaSyntactic-dangdut>.
+Source repository is at L<https://github.com/perlancar/perl-Acme-MetaSyntactic-countries>.
 
 =head1 BUGS
 

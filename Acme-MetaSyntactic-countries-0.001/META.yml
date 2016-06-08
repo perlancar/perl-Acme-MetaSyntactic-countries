@@ -23,7 +23,7 @@ requires:
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-MetaSyntactic-countries
   homepage: https://metacpan.org/release/Acme-MetaSyntactic-countries
-  repository: git://github.com/perlancar/perl-Acme-MetaSyntactic-dangdut.git
+  repository: git://github.com/perlancar/perl-Acme-MetaSyntactic-countries.git
 version: '0.001'
 x_Dist_Zilla:
   perl:
